@@ -1,0 +1,43 @@
+10
+
+dir
+1200
+https://wangqiwei@192.168.100.19/svn/dc_hard_system/W1/trunk/W11/source/iphoneapp/DCBLEClient
+https://wangqiwei@192.168.100.19/svn/dc_hard_system
+
+
+
+2015-01-28T06:56:06.653191Z
+1146
+qianjie
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a567ec23-999f-4654-82b5-346c3919b052
+
+DCBLEClient.xcodeproj
+dir
+
+DCBLESDK.xcodeproj
+dir
+
+DCBLEClient
+dir
+
+DCBLEClientTests
+dir
+
+DCBLESDK
+dir
+

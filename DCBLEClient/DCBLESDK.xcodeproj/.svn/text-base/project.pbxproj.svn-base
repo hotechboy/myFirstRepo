@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB86C82B1A1443F700404D5E /* AES128.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C7FD1A1443F700404D5E /* AES128.m */; };
+		DB86C82C1A1443F700404D5E /* Decrypt_.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C7FF1A1443F700404D5E /* Decrypt_.m */; };
+		DB86C82D1A1443F700404D5E /* MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C8011A1443F700404D5E /* MD5.m */; };
+		DB86C82E1A1443F700404D5E /* DCBLEClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C8041A1443F700404D5E /* DCBLEClient.m */; };
+		DB86C82F1A1443F700404D5E /* DCBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C8061A1443F700404D5E /* DCBluetooth.m */; };
+		DB86C8301A1443F700404D5E /* DCPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C8081A1443F700404D5E /* DCPeripheral.m */; };
+		DB86C8311A1443F700404D5E /* DCBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C80B1A1443F700404D5E /* DCBaseModel.m */; };
+		DB86C8321A1443F700404D5E /* DCBLEAPDU.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C80D1A1443F700404D5E /* DCBLEAPDU.m */; };
+		DB86C8331A1443F700404D5E /* DCBLEBindModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C80F1A1443F700404D5E /* DCBLEBindModel.m */; };
+		DB86C8341A1443F700404D5E /* DCBLEConnectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C8111A1443F700404D5E /* DCBLEConnectModel.m */; };
+		DB86C8351A1443F700404D5E /* DCBLEPinModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C8131A1443F700404D5E /* DCBLEPinModel.m */; };
+		DB86C8361A1443F700404D5E /* DCBLEResetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C8151A1443F700404D5E /* DCBLEResetModel.m */; };
+		DB86C8371A1443F700404D5E /* DCBLEScanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C8171A1443F700404D5E /* DCBLEScanModel.m */; };
+		DB86C8381A1443F700404D5E /* DCBLESoundModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C8191A1443F700404D5E /* DCBLESoundModel.m */; };
+		DB86C8391A1443F700404D5E /* DCBLETokenModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C81B1A1443F700404D5E /* DCBLETokenModel.m */; };
+		DB86C83A1A1443F700404D5E /* DCSyncModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C81D1A1443F700404D5E /* DCSyncModel.m */; };
+		DB86C83B1A1443F700404D5E /* DCCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C8201A1443F700404D5E /* DCCategory.m */; };
+		DB86C83C1A1443F700404D5E /* DynamiConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C8241A1443F700404D5E /* DynamiConnection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DB86C83D1A1443F700404D5E /* DynamiOpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C8261A1443F700404D5E /* DynamiOpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DB86C83E1A1443F700404D5E /* DynamiXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C8281A1443F700404D5E /* DynamiXMLParser.m */; };
+		DB86C83F1A1443F700404D5E /* GCDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DB86C82A1A1443F700404D5E /* GCDHelper.m */; };
+		DB86C8411A14476700404D5E /* DCBluetooth.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB86C8051A1443F700404D5E /* DCBluetooth.h */; };
+		DB86C8421A14476700404D5E /* DCPeripheral.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB86C8071A1443F700404D5E /* DCPeripheral.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DB86C7D61A1443A200404D5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				DB86C8411A14476700404D5E /* DCBluetooth.h in CopyFiles */,
+				DB86C8421A14476700404D5E /* DCPeripheral.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DB86C7D81A1443A200404D5E /* libDCBLESDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDCBLESDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB86C7FC1A1443F700404D5E /* AES128.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AES128.h; sourceTree = "<group>"; };
+		DB86C7FD1A1443F700404D5E /* AES128.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AES128.m; sourceTree = "<group>"; };
+		DB86C7FE1A1443F700404D5E /* Decrypt_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decrypt_.h; sourceTree = "<group>"; };
+		DB86C7FF1A1443F700404D5E /* Decrypt_.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decrypt_.m; sourceTree = "<group>"; };
+		DB86C8001A1443F700404D5E /* MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5.h; sourceTree = "<group>"; };
+		DB86C8011A1443F700404D5E /* MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5.m; sourceTree = "<group>"; };
+		DB86C8031A1443F700404D5E /* DCBLEClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCBLEClient.h; sourceTree = "<group>"; };
+		DB86C8041A1443F700404D5E /* DCBLEClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBLEClient.m; sourceTree = "<group>"; };
+		DB86C8051A1443F700404D5E /* DCBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCBluetooth.h; sourceTree = "<group>"; };
+		DB86C8061A1443F700404D5E /* DCBluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBluetooth.m; sourceTree = "<group>"; };
+		DB86C8071A1443F700404D5E /* DCPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPeripheral.h; sourceTree = "<group>"; };
+		DB86C8081A1443F700404D5E /* DCPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPeripheral.m; sourceTree = "<group>"; };
+		DB86C80A1A1443F700404D5E /* DCBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCBaseModel.h; sourceTree = "<group>"; };
+		DB86C80B1A1443F700404D5E /* DCBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBaseModel.m; sourceTree = "<group>"; };
+		DB86C80C1A1443F700404D5E /* DCBLEAPDU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCBLEAPDU.h; sourceTree = "<group>"; };
+		DB86C80D1A1443F700404D5E /* DCBLEAPDU.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBLEAPDU.m; sourceTree = "<group>"; };
+		DB86C80E1A1443F700404D5E /* DCBLEBindModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCBLEBindModel.h; sourceTree = "<group>"; };
+		DB86C80F1A1443F700404D5E /* DCBLEBindModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBLEBindModel.m; sourceTree = "<group>"; };
+		DB86C8101A1443F700404D5E /* DCBLEConnectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCBLEConnectModel.h; sourceTree = "<group>"; };
+		DB86C8111A1443F700404D5E /* DCBLEConnectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBLEConnectModel.m; sourceTree = "<group>"; };
+		DB86C8121A1443F700404D5E /* DCBLEPinModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCBLEPinModel.h; sourceTree = "<group>"; };
+		DB86C8131A1443F700404D5E /* DCBLEPinModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBLEPinModel.m; sourceTree = "<group>"; };
+		DB86C8141A1443F700404D5E /* DCBLEResetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCBLEResetModel.h; sourceTree = "<group>"; };
+		DB86C8151A1443F700404D5E /* DCBLEResetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBLEResetModel.m; sourceTree = "<group>"; };
+		DB86C8161A1443F700404D5E /* DCBLEScanModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCBLEScanModel.h; sourceTree = "<group>"; };
+		DB86C8171A1443F700404D5E /* DCBLEScanModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBLEScanModel.m; sourceTree = "<group>"; };
+		DB86C8181A1443F700404D5E /* DCBLESoundModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCBLESoundModel.h; sourceTree = "<group>"; };
+		DB86C8191A1443F700404D5E /* DCBLESoundModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBLESoundModel.m; sourceTree = "<group>"; };
+		DB86C81A1A1443F700404D5E /* DCBLETokenModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCBLETokenModel.h; sourceTree = "<group>"; };
+		DB86C81B1A1443F700404D5E /* DCBLETokenModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBLETokenModel.m; sourceTree = "<group>"; };
+		DB86C81C1A1443F700404D5E /* DCSyncModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCSyncModel.h; sourceTree = "<group>"; };
+		DB86C81D1A1443F700404D5E /* DCSyncModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCSyncModel.m; sourceTree = "<group>"; };
+		DB86C81F1A1443F700404D5E /* DCCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCCategory.h; sourceTree = "<group>"; };
+		DB86C8201A1443F700404D5E /* DCCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCCategory.m; sourceTree = "<group>"; };
+		DB86C8211A1443F700404D5E /* DCMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMacros.h; sourceTree = "<group>"; };
+		DB86C8221A1443F700404D5E /* DCSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCSingleton.h; sourceTree = "<group>"; };
+		DB86C8231A1443F700404D5E /* DynamiConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamiConnection.h; sourceTree = "<group>"; };
+		DB86C8241A1443F700404D5E /* DynamiConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamiConnection.m; sourceTree = "<group>"; };
+		DB86C8251A1443F700404D5E /* DynamiOpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamiOpenUDID.h; sourceTree = "<group>"; };
+		DB86C8261A1443F700404D5E /* DynamiOpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamiOpenUDID.m; sourceTree = "<group>"; };
+		DB86C8271A1443F700404D5E /* DynamiXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamiXMLParser.h; sourceTree = "<group>"; };
+		DB86C8281A1443F700404D5E /* DynamiXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamiXMLParser.m; sourceTree = "<group>"; };
+		DB86C8291A1443F700404D5E /* GCDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDHelper.h; sourceTree = "<group>"; };
+		DB86C82A1A1443F700404D5E /* GCDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDHelper.m; sourceTree = "<group>"; };
+		DB86C8401A1444D300404D5E /* DCBLESDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DCBLESDK-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB86C7D51A1443A200404D5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB86C7CF1A1443A200404D5E = {
+			isa = PBXGroup;
+			children = (
+				DB86C7FA1A1443F700404D5E /* DCBLESDK */,
+				DB86C7D91A1443A200404D5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB86C7D91A1443A200404D5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB86C7D81A1443A200404D5E /* libDCBLESDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB86C7FA1A1443F700404D5E /* DCBLESDK */ = {
+			isa = PBXGroup;
+			children = (
+				DB86C8401A1444D300404D5E /* DCBLESDK-Prefix.pch */,
+				DB86C7FB1A1443F700404D5E /* Algorithem */,
+				DB86C8021A1443F700404D5E /* BLEWrapper */,
+				DB86C8051A1443F700404D5E /* DCBluetooth.h */,
+				DB86C8061A1443F700404D5E /* DCBluetooth.m */,
+				DB86C8071A1443F700404D5E /* DCPeripheral.h */,
+				DB86C8081A1443F700404D5E /* DCPeripheral.m */,
+				DB86C8091A1443F700404D5E /* Models */,
+				DB86C81E1A1443F700404D5E /* Utils */,
+			);
+			path = DCBLESDK;
+			sourceTree = "<group>";
+		};
+		DB86C7FB1A1443F700404D5E /* Algorithem */ = {
+			isa = PBXGroup;
+			children = (
+				DB86C7FC1A1443F700404D5E /* AES128.h */,
+				DB86C7FD1A1443F700404D5E /* AES128.m */,
+				DB86C7FE1A1443F700404D5E /* Decrypt_.h */,
+				DB86C7FF1A1443F700404D5E /* Decrypt_.m */,
+				DB86C8001A1443F700404D5E /* MD5.h */,
+				DB86C8011A1443F700404D5E /* MD5.m */,
+			);
+			path = Algorithem;
+			sourceTree = "<group>";
+		};
+		DB86C8021A1443F700404D5E /* BLEWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				DB86C8031A1443F700404D5E /* DCBLEClient.h */,
+				DB86C8041A1443F700404D5E /* DCBLEClient.m */,
+			);
+			path = BLEWrapper;
+			sourceTree = "<group>";
+		};
+		DB86C8091A1443F700404D5E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DB86C80A1A1443F700404D5E /* DCBaseModel.h */,
+				DB86C80B1A1443F700404D5E /* DCBaseModel.m */,
+				DB86C80C1A1443F700404D5E /* DCBLEAPDU.h */,
+				DB86C80D1A1443F700404D5E /* DCBLEAPDU.m */,
+				DB86C80E1A1443F700404D5E /* DCBLEBindModel.h */,
+				DB86C80F1A1443F700404D5E /* DCBLEBindModel.m */,
+				DB86C8101A1443F700404D5E /* DCBLEConnectModel.h */,
+				DB86C8111A1443F700404D5E /* DCBLEConnectModel.m */,
+				DB86C8121A1443F700404D5E /* DCBLEPinModel.h */,
+				DB86C8131A1443F700404D5E /* DCBLEPinModel.m */,
+				DB86C8141A1443F700404D5E /* DCBLEResetModel.h */,
+				DB86C8151A1443F700404D5E /* DCBLEResetModel.m */,
+				DB86C8161A1443F700404D5E /* DCBLEScanModel.h */,
+				DB86C8171A1443F700404D5E /* DCBLEScanModel.m */,
+				DB86C8181A1443F700404D5E /* DCBLESoundModel.h */,
+				DB86C8191A1443F700404D5E /* DCBLESoundModel.m */,
+				DB86C81A1A1443F700404D5E /* DCBLETokenModel.h */,
+				DB86C81B1A1443F700404D5E /* DCBLETokenModel.m */,
+				DB86C81C1A1443F700404D5E /* DCSyncModel.h */,
+				DB86C81D1A1443F700404D5E /* DCSyncModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DB86C81E1A1443F700404D5E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DB86C81F1A1443F700404D5E /* DCCategory.h */,
+				DB86C8201A1443F700404D5E /* DCCategory.m */,
+				DB86C8211A1443F700404D5E /* DCMacros.h */,
+				DB86C8221A1443F700404D5E /* DCSingleton.h */,
+				DB86C8231A1443F700404D5E /* DynamiConnection.h */,
+				DB86C8241A1443F700404D5E /* DynamiConnection.m */,
+				DB86C8251A1443F700404D5E /* DynamiOpenUDID.h */,
+				DB86C8261A1443F700404D5E /* DynamiOpenUDID.m */,
+				DB86C8271A1443F700404D5E /* DynamiXMLParser.h */,
+				DB86C8281A1443F700404D5E /* DynamiXMLParser.m */,
+				DB86C8291A1443F700404D5E /* GCDHelper.h */,
+				DB86C82A1A1443F700404D5E /* GCDHelper.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB86C7D71A1443A200404D5E /* DCBLESDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB86C7EC1A1443A200404D5E /* Build configuration list for PBXNativeTarget "DCBLESDK" */;
+			buildPhases = (
+				DB86C7D41A1443A200404D5E /* Sources */,
+				DB86C7D51A1443A200404D5E /* Frameworks */,
+				DB86C7D61A1443A200404D5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCBLESDK;
+			productName = DCBLESDK;
+			productReference = DB86C7D81A1443A200404D5E /* libDCBLESDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB86C7D01A1443A200404D5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = DynamiCode;
+				TargetAttributes = {
+					DB86C7D71A1443A200404D5E = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = DB86C7D31A1443A200404D5E /* Build configuration list for PBXProject "DCBLESDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB86C7CF1A1443A200404D5E;
+			productRefGroup = DB86C7D91A1443A200404D5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB86C7D71A1443A200404D5E /* DCBLESDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB86C7D41A1443A200404D5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB86C83E1A1443F700404D5E /* DynamiXMLParser.m in Sources */,
+				DB86C8301A1443F700404D5E /* DCPeripheral.m in Sources */,
+				DB86C83F1A1443F700404D5E /* GCDHelper.m in Sources */,
+				DB86C8341A1443F700404D5E /* DCBLEConnectModel.m in Sources */,
+				DB86C82D1A1443F700404D5E /* MD5.m in Sources */,
+				DB86C8351A1443F700404D5E /* DCBLEPinModel.m in Sources */,
+				DB86C83D1A1443F700404D5E /* DynamiOpenUDID.m in Sources */,
+				DB86C8321A1443F700404D5E /* DCBLEAPDU.m in Sources */,
+				DB86C82E1A1443F700404D5E /* DCBLEClient.m in Sources */,
+				DB86C8361A1443F700404D5E /* DCBLEResetModel.m in Sources */,
+				DB86C83C1A1443F700404D5E /* DynamiConnection.m in Sources */,
+				DB86C8391A1443F700404D5E /* DCBLETokenModel.m in Sources */,
+				DB86C82B1A1443F700404D5E /* AES128.m in Sources */,
+				DB86C82C1A1443F700404D5E /* Decrypt_.m in Sources */,
+				DB86C8331A1443F700404D5E /* DCBLEBindModel.m in Sources */,
+				DB86C82F1A1443F700404D5E /* DCBluetooth.m in Sources */,
+				DB86C8311A1443F700404D5E /* DCBaseModel.m in Sources */,
+				DB86C83A1A1443F700404D5E /* DCSyncModel.m in Sources */,
+				DB86C8381A1443F700404D5E /* DCBLESoundModel.m in Sources */,
+				DB86C8371A1443F700404D5E /* DCBLEScanModel.m in Sources */,
+				DB86C83B1A1443F700404D5E /* DCCategory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DB86C7EA1A1443A200404D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB86C7EB1A1443A200404D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB86C7ED1A1443A200404D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCBLESDK/DCBLESDK-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DB86C7EE1A1443A200404D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCBLESDK/DCBLESDK-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB86C7D31A1443A200404D5E /* Build configuration list for PBXProject "DCBLESDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB86C7EA1A1443A200404D5E /* Debug */,
+				DB86C7EB1A1443A200404D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB86C7EC1A1443A200404D5E /* Build configuration list for PBXNativeTarget "DCBLESDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB86C7ED1A1443A200404D5E /* Debug */,
+				DB86C7EE1A1443A200404D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB86C7D01A1443A200404D5E /* Project object */;
+}

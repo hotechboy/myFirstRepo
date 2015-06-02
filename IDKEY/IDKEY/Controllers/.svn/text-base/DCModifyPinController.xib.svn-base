@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DCModifyPinController">
+            <connections>
+                <outlet property="confirmTextField" destination="jOs-NP-KYC" id="Nva-AJ-jQD"/>
+                <outlet property="oldPasswordTextField" destination="DG0-I3-QTl" id="Ak4-uv-0nc"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="旧密码:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6em-SL-dNu">
+                    <rect key="frame" x="22" y="36" width="50" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DG0-I3-QTl">
+                    <rect key="frame" x="80" y="30" width="227" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="MuE-kg-oF5"/>
+                    </connections>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="新密码:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SAy-Nu-7fl">
+                    <rect key="frame" x="22" y="77" width="50" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jOs-NP-KYC">
+                    <rect key="frame" x="80" y="71" width="227" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="pJG-XU-8kk"/>
+                    </connections>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="SAy-Nu-7fl" firstAttribute="top" secondItem="6em-SL-dNu" secondAttribute="bottom" constant="23" id="4iw-8S-Ndr"/>
+                <constraint firstItem="DG0-I3-QTl" firstAttribute="leading" secondItem="6em-SL-dNu" secondAttribute="trailing" constant="8" id="PxR-yh-M1w"/>
+                <constraint firstAttribute="trailing" secondItem="DG0-I3-QTl" secondAttribute="trailing" constant="13" id="WGl-4k-j2N"/>
+                <constraint firstItem="6em-SL-dNu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="22" id="Y4O-cL-Ep0"/>
+                <constraint firstItem="DG0-I3-QTl" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="YIh-yE-wD9"/>
+                <constraint firstItem="SAy-Nu-7fl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="22" id="ZDn-dD-Gdk"/>
+                <constraint firstAttribute="trailing" secondItem="jOs-NP-KYC" secondAttribute="trailing" constant="13" id="bKq-yp-JKt"/>
+                <constraint firstItem="jOs-NP-KYC" firstAttribute="leading" secondItem="SAy-Nu-7fl" secondAttribute="trailing" constant="8" id="fZc-Mr-uyU"/>
+                <constraint firstItem="6em-SL-dNu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="36" id="x8B-DY-722"/>
+                <constraint firstItem="jOs-NP-KYC" firstAttribute="top" secondItem="DG0-I3-QTl" secondAttribute="bottom" constant="11" id="z9G-fm-YUL"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/dc_hard_system/!svn/ver/923/W1/trunk/W11/source/iphoneapp/DCBLEClient/DCBLESDK/Utils
+END
+DCCategory.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/dc_hard_system/!svn/ver/923/W1/trunk/W11/source/iphoneapp/DCBLEClient/DCBLESDK/Utils/DCCategory.m
+END
+DCSingleton.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/dc_hard_system/!svn/ver/907/W1/trunk/W11/source/iphoneapp/DCBLEClient/DCBLESDK/Utils/DCSingleton.h
+END
+DynamiOpenUDID.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/dc_hard_system/!svn/ver/907/W1/trunk/W11/source/iphoneapp/DCBLEClient/DCBLESDK/Utils/DynamiOpenUDID.h
+END
+DCMacros.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/dc_hard_system/!svn/ver/907/W1/trunk/W11/source/iphoneapp/DCBLEClient/DCBLESDK/Utils/DCMacros.h
+END
+GCDHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/dc_hard_system/!svn/ver/907/W1/trunk/W11/source/iphoneapp/DCBLEClient/DCBLESDK/Utils/GCDHelper.h
+END
+DynamiOpenUDID.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/dc_hard_system/!svn/ver/907/W1/trunk/W11/source/iphoneapp/DCBLEClient/DCBLESDK/Utils/DynamiOpenUDID.m
+END
+DynamiXMLParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/dc_hard_system/!svn/ver/921/W1/trunk/W11/source/iphoneapp/DCBLEClient/DCBLESDK/Utils/DynamiXMLParser.h
+END
+DynamiConnection.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/dc_hard_system/!svn/ver/921/W1/trunk/W11/source/iphoneapp/DCBLEClient/DCBLESDK/Utils/DynamiConnection.h
+END
+GCDHelper.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/dc_hard_system/!svn/ver/907/W1/trunk/W11/source/iphoneapp/DCBLEClient/DCBLESDK/Utils/GCDHelper.m
+END
+DCCategory.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/dc_hard_system/!svn/ver/921/W1/trunk/W11/source/iphoneapp/DCBLEClient/DCBLESDK/Utils/DCCategory.h
+END
+DynamiXMLParser.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/dc_hard_system/!svn/ver/921/W1/trunk/W11/source/iphoneapp/DCBLEClient/DCBLESDK/Utils/DynamiXMLParser.m
+END
+DynamiConnection.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/dc_hard_system/!svn/ver/921/W1/trunk/W11/source/iphoneapp/DCBLEClient/DCBLESDK/Utils/DynamiConnection.m
+END

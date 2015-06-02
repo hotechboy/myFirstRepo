@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DCKeyClickController">
+            <connections>
+                <outlet property="logTextView" destination="oR0-E5-Cvd" id="lpu-3y-tXB"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请点击蓝牙设备上的按键" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eeQ-FB-Ayn">
+                    <rect key="frame" x="33" y="505" width="254" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="7UA-t8-es3"/>
+                        <constraint firstAttribute="width" constant="254" id="sFi-Fk-Qr3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oR0-E5-Cvd">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="461"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="eeQ-FB-Ayn" firstAttribute="top" secondItem="oR0-E5-Cvd" secondAttribute="bottom" constant="44" id="7bX-S0-Jbk"/>
+                <constraint firstItem="oR0-E5-Cvd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="IIz-Nh-ejO"/>
+                <constraint firstAttribute="bottom" secondItem="eeQ-FB-Ayn" secondAttribute="bottom" constant="42" id="LWu-Ir-dZc"/>
+                <constraint firstAttribute="centerX" secondItem="eeQ-FB-Ayn" secondAttribute="centerX" id="Lpq-pa-1Zj"/>
+                <constraint firstAttribute="trailing" secondItem="oR0-E5-Cvd" secondAttribute="trailing" id="e9r-M3-eR8"/>
+                <constraint firstItem="oR0-E5-Cvd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="l3e-Yf-9xJ"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

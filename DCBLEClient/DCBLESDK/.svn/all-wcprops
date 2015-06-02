@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/dc_hard_system/!svn/ver/1146/W1/trunk/W11/source/iphoneapp/DCBLEClient/DCBLESDK
+END
+DCBLESDK-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/dc_hard_system/!svn/ver/927/W1/trunk/W11/source/iphoneapp/DCBLEClient/DCBLESDK/DCBLESDK-Prefix.pch
+END
+DCBluetooth.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/dc_hard_system/!svn/ver/1107/W1/trunk/W11/source/iphoneapp/DCBLEClient/DCBLESDK/DCBluetooth.h
+END
+DCBluetooth.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/dc_hard_system/!svn/ver/1098/W1/trunk/W11/source/iphoneapp/DCBLEClient/DCBLESDK/DCBluetooth.m
+END
+DCPeripheral.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/dc_hard_system/!svn/ver/907/W1/trunk/W11/source/iphoneapp/DCBLEClient/DCBLESDK/DCPeripheral.h
+END
+DCPeripheral.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/dc_hard_system/!svn/ver/907/W1/trunk/W11/source/iphoneapp/DCBLEClient/DCBLESDK/DCPeripheral.m
+END

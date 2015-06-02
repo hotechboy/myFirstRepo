@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/dc_hard_system/!svn/ver/1107/W1/trunk/W11/source/iphoneapp/DCBLEClient/DCBLEClient
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/dc_hard_system/!svn/ver/907/W1/trunk/W11/source/iphoneapp/DCBLEClient/DCBLEClient/main.m
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/dc_hard_system/!svn/ver/907/W1/trunk/W11/source/iphoneapp/DCBLEClient/DCBLEClient/AppDelegate.h
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/dc_hard_system/!svn/ver/925/W1/trunk/W11/source/iphoneapp/DCBLEClient/DCBLEClient/Info.plist
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/dc_hard_system/!svn/ver/907/W1/trunk/W11/source/iphoneapp/DCBLEClient/DCBLEClient/AppDelegate.m
+END
+ota.bin
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/dc_hard_system/!svn/ver/1081/W1/trunk/W11/source/iphoneapp/DCBLEClient/DCBLEClient/ota.bin
+END
+DCBLEClient-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/dc_hard_system/!svn/ver/907/W1/trunk/W11/source/iphoneapp/DCBLEClient/DCBLEClient/DCBLEClient-Prefix.pch
+END
